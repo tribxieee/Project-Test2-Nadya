@@ -19,7 +19,7 @@ app.post("/chat", async (req, res) => {
   const userMessage = req.body.message;
 
   try {
-    // Mock AI reply: cuma echo + random quip biar keliatan hidup
+    // Mock AI
     const mockReplies = [
       "Oke, noted!",
       "Menarik, lanjut...",
